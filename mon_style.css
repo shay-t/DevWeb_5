@@ -1,0 +1,202 @@
+@font-face{
+     font-family:'philospher';
+     src: url('polices/Philosopher-Italic.ttf');
+    }
+
+#titre_principal{
+    font-family: 'philospher';
+    font-size: xx-small;
+    background-image: url(images/logo.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body{
+    width: 900px;
+    background-image: url('images/fond.jpg');
+    color: white;
+    margin: auto;
+}
+nav{
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+nav li{
+    display: inline-block;
+    margin: 15px;
+    
+}
+nav li a{
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: salmon;
+    border-bottom: 3px solid  salmon;
+    }
+header{
+    background-image: url('images/separateur.png') ;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+#banniere_image{
+    margin-top: 15px;
+    height:200px;
+    border-radius:5px;
+    background:url('images/ensa.PNG') no-repeat ;
+    position: relative ; /* pour que la banniere_description soit absolue*/
+    margin-bottom : 25px;
+}
+#banniere_description{
+    position :absolute;
+    bottom:0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24, 24, 24, 0.8);
+}
+.bouton_rouge{
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    height: 25px;
+    font-family:'Philosopher' ;
+    color: white;
+    padding: 3px;
+    bottom: 5px;
+    text-decoration: none;
+    background-image: url(images/fond_degraderouge.png);
+    border-radius: 5px;
+    padding: 3px 8px 0 8px;
+}
+/*corps*/
+article,aside{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    margin-top: 20px;
+}
+article{
+    width:600px;
+    margin-right:40px;
+    font-size: large;
+}
+aside{
+    position :relative ; /*pour que #fleche_bulle soit absolue*/
+    width: 250px;
+    background-color:#706b64;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 30px;
+}
+.ico_categorie{
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+img+h1{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#fleche_bulle{
+    position: absolute;
+    top :80px;
+    left:-12px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(images/ico_top.png),url(images/separateur.png),url(images/ombre.png),url(images/fond.jpg);
+    background-position: top center,top,top,center;
+    background-repeat: no-repeat,repeat-x,repeat-x,no-repeat;
+    position: fixed;
+    bottom: 0;
+    width:900px;
+}
+#centre_interet#mes_competences{
+    width: 30%;
+    margin-left: 10%;
+}
+#mes_photos{
+    width: 36%;
+    margin-left:4% ;
+}
+footer div h1 {
+    margin-bottom: 0;
+    margin-left: 12px;
+}
+.photo_zoom{
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.photo_zoom:hover{
+ transform: scale(1.25);
+}
+.photo_comp:hover{
+    transform: rotate(25deg);
+}
+#btr{
+    border-left: none;
+}
+#btl{
+    border-right: none;}
+
+#formation p{
+    text-align: justify;
+    columns: 2;
+    column-gap: 100px;
+    font-size: large;
+    column-rule:3px dotted brown;
+    margin-left: 0%;
+    float: right;
+}
+#formation h1{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#conta{
+    margin-bottom: 250px;
+}
+#conta h1{
+     float: left;
+}
+form{
+    display: inline-block;
+    width:800px;
+    background-color: rgba(24, 24, 24, 0.5);
+}
+form:hover{
+    box-shadow: 10px 10px 10px #fcde36;
+}
+label{
+    display: inline-block;
+    width: 150px;
+    margin: 7px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+label:hover{
+    text-shadow:10px 10px 10px #fcde36 ;
+}
+#contenu2{
+    display:flex ;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+.card{
+    margin-right: 0;
+    width: 33%;
+}

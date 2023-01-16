@@ -1,0 +1,56 @@
+//margin auto pour avoir lelement cenntre
+header{
+    background:url() ;
+}
+nav{
+    display:inline-block;
+    margin-right:15px;
+    width:740;
+    text-align: right;
+}
+nav li{
+    display:inline-block;
+    margin-right:15px;
+
+}
+nav a {
+    font-size:1.3em;
+    color: white;
+    padding-bottom: ;
+}
+nav a:hover{
+    color: ;
+    border-bottom: 3px solid 
+    }
+//bottom :O et les bords de limage arrondi et block absolu conteneur relatif box shadow effet dombre 
+#banniere_image{
+   
+}
+#banniere_description{
+   ;
+}
+.bouton_rouge{
+    display : inline-block;
+    height :25px;
+    position: absolute;
+    right: 5px;
+    bottom:5px;
+    background:url('images/');}
+/*corps*/
+article,aside{display: inline-block;
+vertical-align :top;
+text-align :justify ;
+}  
+article{
+    width:600px;
+    margin-right:15px;
+}
+
+aside{
+    position :relative ; /*pour que #fleche_bulle soit absolue*/
+    width: 250px;
+}
+flec
+{
+   
+}
